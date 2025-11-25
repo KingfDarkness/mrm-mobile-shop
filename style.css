@@ -1,0 +1,49 @@
+/*
+Theme Name: MRM Mobile Shop
+Theme URI: https://example.com
+Author: Your Name
+Author URI: https://example.com
+Description: A custom mobile shop WordPress theme.
+Version: 1.0
+Text Domain: mrm-mobile-shop
+*/
+
+/*
+Theme Name: MRM Mobile Shop
+Theme URI: http://example.com/mrm-mobile-shop
+Author: MRM
+Author URI: http://example.com
+Description: A custom theme for MRM Mobile Shop
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mrm-mobile-shop
+*/
+
+/* Custom Styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
